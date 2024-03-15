@@ -1,0 +1,51 @@
+body {
+  background: url(/lecture5-project/img/pexels-heart-rules-711187.jpg) no-repeat
+    center center/cover;
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 30%;
+  height: 200px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px black;
+}
+
+#timer {
+  width: 100%;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 60px;
+}
+
+button {
+  margin: 0 5px;
+  border: none;
+}
+
+#startStopBtn {
+  background-color: rgb(0, 180, 0);
+  color: white;
+  padding: 5px 12px;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#resetBtn {
+  background-color: red;
+  color: white;
+  padding: 5px 12px;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
